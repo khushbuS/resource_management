@@ -20,3 +20,5 @@ pip install -r requirements.txt
 Django server exposes two endpoints one for getting cpu and memory usage(using psutil) in json format and other for rendering html file.
 
 Polling mechanism is used in javascript to perform GET request(url: '/myapp/home') after every 3 seconds continously the response of which is used to draw a bar graph. On every successful request the graph is first cleared and the updated one is rendered.
+
+![alt text](https://raw.githubusercontent.com/khushbuS/resource_management/master/sample.png)
